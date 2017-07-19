@@ -1,0 +1,59 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+/* Full height image header */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://media.deseretdigital.com/file/8c58d70965?type=jpeg&quality=55&c=15&a=4379240d");
+    min-height: 100vh;
+}
+.w3-bar .w3-button {
+    padding: 16px;
+}
+#brandID{
+    font-family: 'Bungee Shade', cursive;
+}
+.social{
+    margin: 16px;
+}
+
+.contentDiv{
+    min-height: 100%;
+}
+
+#pluralsightID{
+    background: -webkit-linear-gradient(left, #F0572C, #E80E84); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #F0572C, #E80E84); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #F0572C, #E80E84); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #F0572C, #E80E84); /* Standard syntax (must be last) */
+}
+
+#pluralsightDesc{
+
+    background: -webkit-linear-gradient(left, #F0572C, #E80E84); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #F0572C, #E80E84); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #F0572C, #E80E84); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #F0572C, #E80E84); /* Standard syntax (must be last) */
+
+}
+#showDescPS{
+    display: none;
+}
+
+#showDescUT{
+    display: none;
+}
+#showDescTM{
+    display: none;
+}
+
+.pluralsightColor{
+    background: -webkit-linear-gradient(left, #F0572C, #E80E84); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #F0572C, #E80E84); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #F0572C, #E80E84); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #F0572C, #E80E84); /* Standard syntax (must be last) */
+    color: white;
+}

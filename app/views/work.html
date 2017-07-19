@@ -1,0 +1,190 @@
+<div class="w3-container w3-center w3-black" style="padding:70px 16px">
+    <h2>Work Experience</h2>
+    <div class="w3-row-padding w3-animate-bottom" style="margin-top:20px; margin-bottom: 20px">
+
+
+        <!--Pluralsight Information-->
+        <div class="w3-third" ng-class="psNgClass" id="pluralsight">
+            <ul class="w3-ul w3-white w3-hover-shadow">
+                <li class="w3-xlarge w3-padding-16" id="pluralsightID">
+                    <a style="text-decoration: none;" href="#">
+                        <img src="app/content/pluralsight-logo.png" width="80px">
+                        <h3 style="color: white"><b>Pluralsight</b></h3>
+                    </a>
+                </li>
+                <li><b>Marketing Data Analyst</b></li>
+                <li><b>May 2016 - Present</b></li>
+                <li  ng-class="hidePsClickBtn" style="color:white;">
+                    <button class="w3-button" id="pluralsightDesc" ng-click="showDescPS()"><b>Click to see what I've done</b></button>
+                </li>
+                <li id="descPS"><b>hello</b></li>
+                <li>$ 10</li>
+            </ul>
+        </div>
+
+
+        <!--Utah Information-->
+        <div class="w3-third" ng-class="utahNgClass" id="universityOfUtah">
+            <ul class="w3-ul w3-white w3-hover-shadow">
+                <li class="w3-xlarge w3-padding-24">
+                    <a style="text-decoration: none;" href="#">
+                        <img src="app/content/univUtah.png" width="65px">
+                        <h3><b>University of Utah</b></h3>
+                    </a>
+                </li>
+                <li><b>Support Specialist</b></li>
+                <li><b>March 2016 - Present</b></li>
+                <li ng-class="hideUtahClickBtn">
+                    <button class="w3-button w3-black" ng-click="showDescUtah()"><b>Click to see what I've done</b></button>
+                </li>
+                <li><b>Endless</b> Support</li>
+                <li>$ 10</li>
+            </ul>
+        </div>
+
+
+        <!--Tech Mahindra Information -->
+        <div class="w3-third" ng-class="tmNgClass" id="techMahindra">
+            <ul class="w3-ul w3-white w3-hover-shadow">
+                <li class="w3-xlarge w3-padding-16" style="background-color: #A3C1AD">
+                    <a style="text-decoration: none;" href="#">
+                        <img src="app/content/cambridge.png" width="70px">
+                        <h3 style="color: white"><b>Cambridge University Press</b></h3>
+                    </a>
+                </li>
+                <li><b>SAP ABAP Developer</b></li>
+                <li><b>August 2014 - November 2016</b></li>
+                <li ng-class="hideTMClickBtn">
+                    <button style="background-color: #A3C1AD; color: white;" ng-click="showDescTM()" class="w3-button">
+                        <b>Click to see what I've done</b>
+                    </button>
+                </li>
+                <li><b>Endless</b> Support</li>
+                <li>$ 25</li>
+            </ul>
+        </div>
+
+
+        <!-- Pluralsight Description -->
+        <div class="w3-twothird" ng-class="showItemPsDesc" ng-style="{display: cssValueOfPsDescDisplay || none}" id="showDescPS">
+            <ul class="w3-ul w3-white w3-hover-shadow">
+                <li class="w3-large pluralsightColor" style="padding: 22px">
+                    <button class="fa fa-arrow-left w3-left w3-button w3-black" ng-click="showWE_PS()"></button>
+                    <b>Description</b>
+                </li>
+                <li class="w3-medium">
+                    <b>
+                        Maintained Campaign Meta Data in Sales Force and drew insights to drive optimization for various web campaigns, and field events.
+                    </b>
+                </li>
+                <li class="w3-medium" >
+                    <b>
+                        Created reports in Impala and framed dashboards in Tableau for the Digital Marketing team to help them analyze the performance of various campaigns and measure lead flows through the funnel and the revenue generated for all the campaigns.
+                    </b>
+                </li>
+                <li class="w3-medium">
+                    <b>
+                        Analyzed the conversion and traffic to various websites and marketing campaigns using Adobe and Google Analytics.
+                    </b>
+                </li>
+                <li class="w3-medium">
+                    <b>
+                        Analyzed the performance of various campaigns and gave the results to the Marketing leads which helped them analyze how a particular campaign is able to perform at various geographic locations.
+                    </b>
+                </li>
+                <li class="w3-medium">
+                    <b>
+                        Performed Cohort analysis on the B2C and B2B customer retention using R and Tableau.
+                    </b>
+                </li>
+                <li class="w3-medium">
+                    <b>
+                        Provided analytics for comprehensive business models to align marketing efforts with sales goals and revenue projections.
+                    </b>
+                </li>
+                <li class="w3-medium">
+                    <b>
+                        Extracted account level details of various B2B customers using Python scripts and analyzed them in tableau
+                    </b>
+                </li>
+            </ul>
+        </div>
+
+
+        <!--Utah Description-->
+        <div class="w3-twothird" ng-class="showItemUtahDesc" ng-style="{display: cssValueOfUtahDescDisplay || none}" id="showDescUT">
+            <ul class="w3-ul w3-white w3-hover-shadow">
+                <li class="w3-large" style="padding: 22px; background-color: #C41230;">
+                    <button class="fa fa-arrow-left w3-left w3-button w3-black" ng-click="showWE_UT()"></button>
+                    <b style="color: white;">Description</b>
+                </li>
+                <li class="w3-medium">
+                    <b>
+                        Assisted with creating and maintaining student files.
+                    </b>
+                </li>
+                <li class="w3-medium" >
+                    <b>
+                        Entered information from historical scanned surveys and on-going surveys into computerized information system using MS Excel software.
+                    </b>
+                </li>
+                <li class="w3-medium">
+                    <b>
+                        Maintained document master files for backup and verification.
+                    </b>
+                </li>
+                <li class="w3-medium">
+                    <b>
+                        Ran queries and reports, including graphs of relevant data.
+                    </b>
+                </li>
+            </ul>
+        </div>
+
+
+        <!--Tech Mahindra Description-->
+        <div class="w3-twothird" ng-class="showItemTMDesc" ng-style="{display: cssValueOfTMDescDisplay || none}" id="showDescTM">
+            <ul class="w3-ul w3-white w3-hover-shadow">
+                <li class="w3-large" style="padding: 22px; background-color: #A3C1AD;">
+                    <button class="fa fa-arrow-left w3-left w3-button w3-black" ng-click="showWE_TM()"></button>
+                    <b style="color: white;">Description</b>
+                </li>
+                <li class="w3-medium">
+                    <b>
+                        Implemented SAP Sales and Distribution Module for Cambridge University Press.
+                    </b>
+                </li>
+                <li class="w3-medium" >
+                    <b>
+                        Developed SAP Smart Forms, Scripts, LSMWs and Reports: Standard and ALV.
+                    </b>
+                </li>
+                <li class="w3-medium">
+                    <b>
+                        Developed Enhancements: User exits and BADIs.
+                    </b>
+                </li>
+                <li class="w3-medium">
+                    <b>
+                        Developed Interfaces: Inbound and Outbound and Screens.
+                    </b>
+                </li>
+                <li class="w3-medium">
+                    <b>
+                        Worked with ALE IDOCS, Workflows and Data Dictionary.
+                    </b>
+                </li>
+                <li class="w3-medium">
+                    <b>
+                        Analyzed SD and MM requirements.
+                    </b>
+                </li>
+                <li class="w3-medium">
+                    <b>
+                        Prepared Technical Specifications, Code Review Documents and performed Unit Testing.
+                    </b>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
