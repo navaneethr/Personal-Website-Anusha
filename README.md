@@ -1,5 +1,5 @@
 # Personal-Website-Anusha
-<h4>Uses AngularJS 1.5.5</h4>
+<h4>Uses AngularJS 1.6.4</h4>
 <ul>
    <li>Anusha's Website is a Single page website which is responsive and cross browser compatible</li>
    <li>AngularJS Routes have been specified to navigate between pages and the views are rendered using the AngularJS directive ng-view</li>
